@@ -1,3 +1,5 @@
+import "../../../styles/StatusMessage.css"
+
 type StatusMessageProps = {
   message: string
 }

@@ -1,6 +1,7 @@
 import SearchForm from "../../weather/SearchForm/SearchForm"
 import StatusMessage from "../../weather/StatusMessage/StatusMessage"
 import WeatherCard from "../../weather/WeatherCard/WeatherCard"
+import "../../../styles/AppShell.css"
 
 export default function Appshell() {
   return (

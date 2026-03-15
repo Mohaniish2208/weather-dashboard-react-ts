@@ -1,3 +1,5 @@
+import "../../../styles/SearchForm.css"
+
 export default function SearchForm() {
   return (
     <form className="form">

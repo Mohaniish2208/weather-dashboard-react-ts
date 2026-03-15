@@ -1,0 +1,29 @@
+.weathercard {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 5px rgb(214, 214, 214);
+  margin: 5px;
+}
+
+.weathercard-details {
+  display: flex;
+  justify-content: space-between;
+  border-radius: transparent;
+  margin: 5px;
+}
+
+.weathercard-city {
+  font-size: 20px;
+}
+
+.weathercard-temperature {
+  font-size: 26px;
+}
+
+.weathercard-detail {
+  min-width: 120px;
+  display: block;
+  padding: 0;
+  border-radius: 8px;
+  background-color: rgb(193, 195, 197);
+}
