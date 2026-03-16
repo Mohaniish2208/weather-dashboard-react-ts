@@ -3,10 +3,12 @@
   justify-content: center;
   gap: 5px;
   margin: 0 5px;
+  margin-bottom: 7px;
 }
 
 .form-input {
   flex: 1;
+  padding: 6px 10px;
   border: 1px solid grey;
   border-radius: 3px;
   padding: 3px;

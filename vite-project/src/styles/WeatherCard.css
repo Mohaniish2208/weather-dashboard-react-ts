@@ -1,4 +1,5 @@
 .weathercard {
+  margin-top: 7px;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 0 5px 5px 5px rgb(214, 214, 214);
@@ -14,10 +15,13 @@
 
 .weathercard-city {
   font-size: 20px;
+  margin: 0;
 }
 
 .weathercard-temperature {
-  font-size: 26px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .weathercard-detail {
