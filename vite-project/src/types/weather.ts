@@ -8,7 +8,7 @@ export type GeoCodingResult = {
 }
 
 export type GeoCodingResponse = {
-  results?: GeoCodingResponse[]
+  results?: GeoCodingResult[]
 }
 
 export type CurrentWeather = {
