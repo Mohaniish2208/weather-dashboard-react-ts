@@ -19,7 +19,7 @@ export async function fetchCoordinates(city: string): Promise<GeoCodingResult> {
 
 export async function fetchWeather(latitude: number, longitude: number): Promise<WeatherResponse> {
   const response = await fetch(
-    `${WEATHER_FORECAST_API}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m, relative_humidity_2m, apparent_temperature, weather_code, wind_speed_10m`,
+    `${WEATHER_FORECAST_API}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m`,
   )
 
   if (!response.ok) {
