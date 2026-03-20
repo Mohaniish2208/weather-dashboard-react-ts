@@ -2,21 +2,19 @@
   display: flex;
   justify-content: center;
   gap: 5px;
-  margin: 0 5px;
-  margin-bottom: 7px;
+  margin: 10px 10px 5px;
 }
 
 .form-input {
   flex: 1;
-  padding: 6px 10px;
-  border: 1px solid grey;
-  border-radius: 3px;
-  padding: 3px;
+  border-radius: 7px;
+  padding: 5px;
+  text-transform: capitalize;
 }
 
 .form-btn {
   font-size: 10px;
-  border-radius: 3px;
+  border-radius: 7px;
   padding: 2px 15px;
   color: white;
   background-color: rgb(42, 108, 249);

@@ -8,6 +8,7 @@ type WeatherCardProps = {
   humidity: number
   windSpeed: number
   feelsLike: number
+  weatherCode: number
 }
 
 // export default function handleCloudy(weatherCode(getWeatherCondition.c)){
@@ -24,6 +25,7 @@ export default function WeatherCard({
 }: WeatherCardProps) {
   return (
     <section className="weathercard">
+      <div className="weathercard-overlay" />
       <h2 className="weathercard-city">{cityName}</h2>
       <p className="weathercard-temperature">{temperature}°C</p>
       <div className="weathercard-condition">

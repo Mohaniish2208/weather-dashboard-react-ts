@@ -13,6 +13,7 @@ type WeatherState = {
   windSpeed: number
   condition: string
   feelsLike: number
+  weatherCode: number
 }
 
 export default function Appshell() {
@@ -43,6 +44,7 @@ export default function Appshell() {
         humidity: weatherData.current.relative_humidity_2m,
         windSpeed: Math.round(weatherData.current.wind_speed_10m),
         condition: getWeatherCondition(weatherData.current.weather_code),
+        weatherCode: weatherData.current.weather_code,
         feelsLike: Math.round(weatherData.current.apparent_temperature),
       })
       setStatusMessage("")
@@ -76,7 +78,8 @@ export default function Appshell() {
             condition={weather.condition}
             humidity={weather.humidity}
             windSpeed={weather.windSpeed}
-            feelsLike={weather.feelsLike}
+            feelsLike={weather.weatherCode}
+            weatherCode={weather.weatherCode}
           />
         )}
       </div>
