@@ -12,6 +12,27 @@ body {
   position: relative;
 }
 
+.appshell-title span {
+  color: #22d3ee;
+}
+
+.appshell-title-line {
+  width: 40px;
+  height: 4px;
+  margin: 14px auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0ea5e9, #22d3ee);
+}
+
+.appshell-weather-span {
+  color: white;
+}
+
+.search-instruction {
+  color: white;
+  font-weight: 600;
+}
+
 .appshell-container {
   position: relative;
   background: linear-gradient(135deg, rgb(17, 38, 72), rgb(8, 58, 138));

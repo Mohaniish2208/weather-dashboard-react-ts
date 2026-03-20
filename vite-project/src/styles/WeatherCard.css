@@ -74,10 +74,16 @@
   margin: 5px;
 }
 
+.humidity-icon,
+.wind-icon,
+.feelsLike-icon {
+  margin: 5px 5px 0;
+}
+
 .text {
   color: azure;
   padding: 0px;
-  margin: 0;
+  margin: 5px 0 0;
 }
 
 .weathercard-detail strong {

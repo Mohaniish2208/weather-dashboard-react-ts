@@ -63,10 +63,12 @@ export default function Appshell() {
     <main className="appshell">
       <div className="appshell-container">
         <header className="appshell-container-header">
-          <h1>
-            <span>Weather API </span>Dashboard
+          <h1 className="appshell-title">
+            Weather API
+            <span> Dashboard</span>
           </h1>
-          <p>Search any city to view weather details.</p>
+          <div className="appshell-title-line" />
+          <p className="search-instruction">Search any city to view weather details.</p>
         </header>
 
         <SearchForm city={city} onCityChange={setCity} onSearch={handleSearch} />
