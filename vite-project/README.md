@@ -93,11 +93,11 @@ src/
 
 #### Main page:
 
-[!Main Page](icons/Main%20Page%20SS.png)
+![Main Page](icons/Main%20Page%20SS.png)
 
 #### Search Result:
 
-[!Search Result](icons/Search%20Result%20SS.png)
+![Search Result](icons/Search%20Result%20SS.png)
 
 ---
 
