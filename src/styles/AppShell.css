@@ -42,7 +42,7 @@ body {
   background: linear-gradient(135deg, rgb(22, 73, 155), rgb(8, 58, 138));
   margin: 10px;
   height: auto;
-  width: auto;
+  width: 100%;
   align-items: center;
   border: transparent;
   border-radius: 15px;
